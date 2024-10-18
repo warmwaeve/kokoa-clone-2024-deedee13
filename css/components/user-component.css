@@ -35,8 +35,7 @@
 .user-component__title--not-bold {
   font-weight: 400;
 }
-.friends-screen-channel {
-  margin-top: 25px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
-  padding-top: 15px;
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
 }
