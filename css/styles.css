@@ -7,11 +7,16 @@
 /*components*/
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
-@import "components/screen-header.css"; /*screens*/
+@import "components/screen-header.css";
+@import "components/user-component.css";
+
+/*screens*/
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
   height: 1000vh;
+  color: #2e363e;
   // <uniquifier>: Use a unique and descriptive class name
   // <weight>: Use a value from 300 to 800
 
